@@ -1,8 +1,6 @@
-Implementation of Kalman filter in 30 lines using Numpy. All notations are same as in Kalman Filter [Wikipedia Page](https://en.wikipedia.org/wiki/Kalman_filter).   
+Forked from: https://github.com/zziz/kalman-filter
 
-It is a generic implementation of Kalman Filter, should work for any system, provided system dynamics matrices are set up properly. Included example is the prediction of position, velocity and acceleration based on position measurements. Synthetic data is generated for the purpose of illustration.           
-
-Running: ```python kalman-filter.py```
+It is a generic implementation of Kalman Filter with examples and illustration.
 
 ```python
 import numpy as np
@@ -66,4 +64,8 @@ if __name__ == '__main__':
 ```
 
 #### Output
+## Example from @zziz
 ![Result](asset/Figure_1.png)
+
+## Example from @BanfiTommasoFelice
+![Result](asset/Figure_2.png)
