@@ -38,8 +38,8 @@ class KalmanFilter(object):
 ```
 
 #### Output
-## Example from @zziz
+## Example 1, forked from @zziz
 ![Result](asset/Figure_1.png)
 
-## Example from @BanfiTommasoFelice
+## Example 2, @BanfiTommasoFelice
 ![Result](asset/Figure_2.png)
