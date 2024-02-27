@@ -1,3 +1,6 @@
+# Kalman Filter
+### Basic implementation
+
 Forked from: https://github.com/zziz/kalman-filter
 
 It is a generic implementation of Kalman Filter with examples and illustration.
@@ -37,9 +40,8 @@ class KalmanFilter(object):
         	(I - np.dot(K, self.H)).T) + np.dot(np.dot(K, self.R), K.T)
 ```
 
-#### Output
-## Example 1, forked from @zziz
+### Example 1, forked from @zziz
 ![Result](asset/Figure_1.png)
 
-## Example 2, @BanfiTommasoFelice
+### Example 2, @BanfiTommasoFelice
 ![Result](asset/Figure_2.png)
