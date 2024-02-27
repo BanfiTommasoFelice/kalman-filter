@@ -1,3 +1,5 @@
+# forked from @zziz: https://github.com/zziz/kalman-filter
+
 import numpy as np
 
 class KalmanFilter(object):
